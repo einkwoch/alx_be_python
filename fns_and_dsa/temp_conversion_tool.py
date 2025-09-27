@@ -1,6 +1,6 @@
 class temperror(Exception):
     def __init__(self, *args):
-        super().__init__("Invalid temperature. Please enter a numeric value")
+        super().__init__("Invalid temperature. Please enter a numeric value.")
     
 
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
