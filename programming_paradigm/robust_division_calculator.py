@@ -6,7 +6,7 @@ def safe_divide(numerator, denominator):
 
         # Try the division
         result = num / den
-        return f"The result of the division is {result:.2f}"
+        return f"The result of the division is {result:.1f}"
 
     except ValueError:
         # Raised when conversion to float fails
