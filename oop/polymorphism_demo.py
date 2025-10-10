@@ -15,7 +15,7 @@ class Rectangle(Shape):
         super().__init__()
 
     def area(self):
-        return self.length*self.width
+        return self.length * self.width
         
     
 class Circle(Shape):
